@@ -24,6 +24,7 @@
 		BF8CAAA125AE7A8600A46C66 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF8CAAA025AE7A8600A46C66 /* GoogleService-Info.plist */; };
 		BF8CAAB625AE7D1400A46C66 /* App Icon in Resources */ = {isa = PBXBuildFile; fileRef = BF8CAAB525AE7D1400A46C66 /* App Icon */; };
 		BF8CAAD925AE96FA00A46C66 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8CAAD825AE96FA00A46C66 /* DatabaseManager.swift */; };
+		BF8CABCB25B0F21E00A46C66 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8CABCA25B0F21E00A46C66 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		BF8CAAA025AE7A8600A46C66 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BF8CAAB525AE7D1400A46C66 /* App Icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "App Icon"; sourceTree = "<group>"; };
 		BF8CAAD825AE96FA00A46C66 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		BF8CABCA25B0F21E00A46C66 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		CABF7D1F550576E3F9AE3CD7 /* Pods_MuMu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuMu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88251F3B9B3E347772C6879 /* Pods-MuMu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuMu.release.xcconfig"; path = "Target Support Files/Pods-MuMu/Pods-MuMu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +134,7 @@
 				BF1F104B25AD5B010001F024 /* ProfileViewController.swift */,
 				BF1F104E25AD5B160001F024 /* VideoPlayerViewController.swift */,
 				BF1F105125AD5B240001F024 /* NewConversationViewController.swift */,
+				BF8CABCA25B0F21E00A46C66 /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				BF1F104F25AD5B160001F024 /* VideoPlayerViewController.swift in Sources */,
 				BF1F105225AD5B240001F024 /* NewConversationViewController.swift in Sources */,
 				BF1F103E25AD5AB30001F024 /* ConversationViewController.swift in Sources */,
+				BF8CABCB25B0F21E00A46C66 /* ChatViewController.swift in Sources */,
 				BF1F104925AD5AF10001F024 /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
