@@ -21,6 +21,7 @@
 		BF1F104F25AD5B160001F024 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F104E25AD5B160001F024 /* VideoPlayerViewController.swift */; };
 		BF1F105225AD5B240001F024 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F105125AD5B240001F024 /* NewConversationViewController.swift */; };
 		BF1F105725AD5BCE0001F024 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F105625AD5BCE0001F024 /* Extensions.swift */; };
+		BF2E209825B66BE1002F4FEE /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2E209725B66BE1002F4FEE /* ConversationTableViewCell.swift */; };
 		BF8CAAA125AE7A8600A46C66 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF8CAAA025AE7A8600A46C66 /* GoogleService-Info.plist */; };
 		BF8CAAB625AE7D1400A46C66 /* App Icon in Resources */ = {isa = PBXBuildFile; fileRef = BF8CAAB525AE7D1400A46C66 /* App Icon */; };
 		BF8CAAD925AE96FA00A46C66 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8CAAD825AE96FA00A46C66 /* DatabaseManager.swift */; };
@@ -45,6 +46,7 @@
 		BF1F104E25AD5B160001F024 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		BF1F105125AD5B240001F024 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		BF1F105625AD5BCE0001F024 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BF2E209725B66BE1002F4FEE /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
 		BF8CAAA025AE7A8600A46C66 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BF8CAAB525AE7D1400A46C66 /* App Icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "App Icon"; sourceTree = "<group>"; };
 		BF8CAAD825AE96FA00A46C66 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			children = (
 				BF1F101925AD57A50001F024 /* Assets.xcassets */,
 				BF1F102A25AD58580001F024 /* Storyboards */,
+				BF2E209725B66BE1002F4FEE /* ConversationTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				BF1F104F25AD5B160001F024 /* VideoPlayerViewController.swift in Sources */,
 				BF1F105225AD5B240001F024 /* NewConversationViewController.swift in Sources */,
 				BF1F103E25AD5AB30001F024 /* ConversationViewController.swift in Sources */,
+				BF2E209825B66BE1002F4FEE /* ConversationTableViewCell.swift in Sources */,
 				BF8CABCB25B0F21E00A46C66 /* ChatViewController.swift in Sources */,
 				BF1F104925AD5AF10001F024 /* PhotoViewerViewController.swift in Sources */,
 				BF8CABEB25B146B400A46C66 /* StorageManager.swift in Sources */,
@@ -478,6 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 884ZB4BZD2;
 				INFOPLIST_FILE = MuMu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -497,6 +502,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 884ZB4BZD2;
 				INFOPLIST_FILE = MuMu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -195,7 +195,7 @@ class RegisterViewController: UIViewController {
             DispatchQueue.main.async {
                 strongSelf.spinner.dismiss()
             }
-            guard !exist else{
+            guard exist == false else{
                 strongSelf.alertUserLoginError(message: "The email address has already been taken.")
                 print("user exist")
                 return

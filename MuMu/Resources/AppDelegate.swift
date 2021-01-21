@@ -60,6 +60,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate,GIDSignInDelegate {
             return
         }
         
+        UserDefaults.standard.set(email, forKey: "email")
+        UserDefaults.standard.set("\(firstName) \(lastName)", forKey: "name")
         guard let user = user else{
             return
         }
